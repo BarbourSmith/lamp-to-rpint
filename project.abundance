@@ -5972,7 +5972,8 @@
       "ioValues": [
         {
           "name": "diam",
-          "ioValue": 10
+          "ioValue": 8,
+          "currentEquation": "10 - 2"
         }
       ],
       "topLevel": false,
@@ -6000,7 +6001,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 8
             }
           ],
           "currentEquation": "x * (1/sqrt(2))"
@@ -6014,11 +6015,11 @@
           "ioValues": [
             {
               "name": "d",
-              "ioValue": 10
+              "ioValue": 8
             },
             {
               "name": "y",
-              "ioValue": 7.071067811865475
+              "ioValue": 5.65685424949238
             }
           ],
           "currentEquation": "3 * d - 2 * y"
@@ -6032,7 +6033,7 @@
           "ioValues": [
             {
               "name": "diam",
-              "ioValue": 10
+              "ioValue": 8
             }
           ],
           "currentEquation": "diam * 3"
@@ -6053,7 +6054,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 10
+              "ioValue": 8
             }
           ]
         },
@@ -6073,7 +6074,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 7.071067811865475
+              "ioValue": 5.65685424949238
             }
           ]
         },
@@ -6119,7 +6120,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 8
             }
           ],
           "currentEquation": "x / 2 - 3/16"
@@ -6133,7 +6134,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 8
             }
           ],
           "currentEquation": "x + 3/8"
@@ -6174,7 +6175,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 30.2
+              "ioValue": 24.2
             }
           ]
         },
@@ -6187,7 +6188,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 30
+              "ioValue": 24
             }
           ],
           "currentEquation": "x + 0.2"
@@ -6290,11 +6291,11 @@
           "ioValues": [
             {
               "name": "radius",
-              "ioValue": 10.375
+              "ioValue": 8.375
             },
             {
               "name": "offset",
-              "ioValue": 4.8125
+              "ioValue": 3.8125
             },
             {
               "name": "width",
@@ -6338,7 +6339,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 10.375
+                  "ioValue": 8.375
                 }
               ],
               "currentEquation": "x * 2"
@@ -6359,7 +6360,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 20
+                  "ioValue": 16
                 }
               ]
             },
@@ -6372,7 +6373,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 20.75
+                  "ioValue": 16.75
                 },
                 {
                   "name": "y",
@@ -6419,7 +6420,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -15.1875
+                  "ioValue": -12.1875
                 },
                 {
                   "name": "zDist",
@@ -6456,11 +6457,11 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 10.375
+                  "ioValue": 8.375
                 },
                 {
                   "name": "y",
-                  "ioValue": 4.8125
+                  "ioValue": 3.8125
                 }
               ],
               "currentEquation": "-1 * (x + y)"
@@ -6653,7 +6654,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 20.75
+                  "ioValue": 16.75
                 },
                 {
                   "name": "degrees",
@@ -6692,7 +6693,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 20.75
+                      "ioValue": 16.75
                     }
                   ]
                 },
@@ -6704,11 +6705,11 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 20.75
+                      "ioValue": 16.75
                     },
                     {
                       "name": "y length",
-                      "ioValue": 20.75
+                      "ioValue": 16.75
                     }
                   ]
                 },
@@ -6721,7 +6722,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 20.75
+                      "ioValue": 16.75
                     }
                   ],
                   "currentEquation": "x / 2"
@@ -6734,7 +6735,7 @@
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": 10.375
+                      "ioValue": 8.375
                     },
                     {
                       "name": "yDist",
@@ -6754,7 +6755,7 @@
                   "ioValues": [
                     {
                       "name": "xDist",
-                      "ioValue": -10.375
+                      "ioValue": -8.375
                     },
                     {
                       "name": "yDist",
@@ -6775,7 +6776,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 10.375
+                      "ioValue": 8.375
                     }
                   ],
                   "currentEquation": "-1 * x"
@@ -7025,11 +7026,11 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 8
             },
             {
               "name": "height",
-              "ioValue": 30
+              "ioValue": 24
             },
             {
               "name": "materialThickness",
@@ -7084,7 +7085,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 29.5
+                  "ioValue": 23.5
                 }
               ]
             },
@@ -7096,7 +7097,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 8
                 }
               ]
             },
@@ -7108,7 +7109,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10.05
+                  "ioValue": 8.05
                 }
               ]
             },
@@ -7126,7 +7127,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 30
+                  "ioValue": 24
                 }
               ]
             },
@@ -7162,7 +7163,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 10
+                  "ioValue": 8
                 }
               ],
               "currentEquation": "x + 0.05"
@@ -7202,7 +7203,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 30
+                  "ioValue": 24
                 },
                 {
                   "name": "y",
@@ -7230,7 +7231,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 8
                 },
                 {
                   "name": "thickness",
@@ -7273,7 +7274,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 10
+                      "ioValue": 8
                     }
                   ]
                 },
@@ -7293,7 +7294,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 9.625
+                      "ioValue": 7.625
                     }
                   ]
                 },
@@ -7324,7 +7325,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 10
+                      "ioValue": 8
                     },
                     {
                       "name": "y",
@@ -8587,11 +8588,11 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 30
+              "ioValue": 24
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 8
             },
             {
               "name": "materialThickness",
@@ -8646,7 +8647,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 9.5
+                  "ioValue": 7.5
                 }
               ]
             },
@@ -8658,7 +8659,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 30
+                  "ioValue": 24
                 }
               ]
             },
@@ -8670,7 +8671,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 30.05
+                  "ioValue": 24.05
                 }
               ]
             },
@@ -8688,7 +8689,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 10
+                  "ioValue": 8
                 }
               ]
             },
@@ -8724,7 +8725,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 30
+                  "ioValue": 24
                 }
               ],
               "currentEquation": "x + 0.05"
@@ -8764,7 +8765,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 10
+                  "ioValue": 8
                 },
                 {
                   "name": "y",
@@ -8792,7 +8793,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 30
+                  "ioValue": 24
                 },
                 {
                   "name": "thickness",
@@ -8835,7 +8836,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 30
+                      "ioValue": 24
                     }
                   ]
                 },
@@ -8855,7 +8856,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 29.625
+                      "ioValue": 23.625
                     }
                   ]
                 },
@@ -8886,7 +8887,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 30
+                      "ioValue": 24
                     },
                     {
                       "name": "y",
@@ -10149,11 +10150,11 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 15.85786437626905
+              "ioValue": 12.68629150101524
             },
             {
               "name": "height",
-              "ioValue": 15.85786437626905
+              "ioValue": 12.68629150101524
             },
             {
               "name": "materialThickness",
@@ -10208,7 +10209,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 15.35786437626905
+                  "ioValue": 12.18629150101524
                 }
               ]
             },
@@ -10220,7 +10221,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 15.85786437626905
+                  "ioValue": 12.68629150101524
                 }
               ]
             },
@@ -10232,7 +10233,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 15.907864376269051
+                  "ioValue": 12.736291501015241
                 }
               ]
             },
@@ -10250,7 +10251,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 15.85786437626905
+                  "ioValue": 12.68629150101524
                 }
               ]
             },
@@ -10286,7 +10287,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 15.85786437626905
+                  "ioValue": 12.68629150101524
                 }
               ],
               "currentEquation": "x + 0.05"
@@ -10326,7 +10327,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 15.85786437626905
+                  "ioValue": 12.68629150101524
                 },
                 {
                   "name": "y",
@@ -10354,7 +10355,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 15.85786437626905
+                  "ioValue": 12.68629150101524
                 },
                 {
                   "name": "thickness",
@@ -10397,7 +10398,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 15.85786437626905
+                      "ioValue": 12.68629150101524
                     }
                   ]
                 },
@@ -10417,7 +10418,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 15.48286437626905
+                      "ioValue": 12.31129150101524
                     }
                   ]
                 },
@@ -10448,7 +10449,7 @@
                   "ioValues": [
                     {
                       "name": "x",
-                      "ioValue": 15.85786437626905
+                      "ioValue": 12.68629150101524
                     },
                     {
                       "name": "y",
@@ -11895,6 +11896,40 @@
       },
       "unitsKey": "Inches",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.4759114583333333,
+      "y": 0.3601190476190476,
+      "uniqueID": "id-15074",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Code",
+      "x": 0.5787760416666667,
+      "y": 0.6666666666666666,
+      "uniqueID": "id-15079",
+      "ioValues": [
+        {
+          "name": "dist",
+          "ioValue": 5
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n      {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      //Use the built-in Move function to move the shape in the X direction\n      let movedShape = await Move(importedShape, dist, 0, 0)\n\n      //Use the built-in Rotate function to rotate the shape\n      let rotatedShape = await Rotate(importedShape, 0, 45, 0)\n\n      //Use the built-in Scale function to make the shape smaller\n      let scaledShape = await Scale(importedShape, 0.8)\n\n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Original shape bounds:\", GetBounds(importedShape))\n      console.log(\"Moved shape bounds:\", GetBounds(movedShape))\n\n      //Create a new shape from scratch using replicad\n      let createdRectangle = replicad.drawRectangle(5, 7)\n      const newPlane = new replicad.Plane().pivot(0, 'Y')\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [createdShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n      //Use the built-in Fillet function to round the edges\n      let filletedShape = await Fillet(shape2, 0.5)\n\n      //Use the built-in Chamfer function to bevel the edges  \n      let chamferedShape = await Chamfer(movedShape, 0.3)\n\n      //Use the built-in Assembly function to combine multiple shapes\n      let finalAssembly = await Assembly([rotatedShape, scaledShape, filletedShape, chamferedShape])\n\n      //You can also create boolean operations using Intersect\n      //let intersection = await Intersect(movedShape, rotatedShape)\n\n      return finalAssembly\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
     }
   ],
   "allConnectors": [
@@ -11902,6 +11937,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-13113",
       "ap2ID": "id-13934"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-13934",
+      "ap2ID": "id-15074"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-14251",
+      "ap2ID": "id-15074"
     },
     {
       "ap2Name": "geometry",
