@@ -96,8 +96,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8313802083333333,
-      "y": 0.3273809523809524,
+      "x": 0.8022486772486772,
+      "y": 0.6016713091922006,
       "uniqueID": "id-15158",
       "ioValues": [
         {
@@ -106,10 +106,6 @@
         },
         {
           "name": "Shape 3",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -172,8 +168,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7162698412698413,
-      "y": 0.23119777158774377,
+      "x": 0.8538359788359788,
+      "y": 0.2395543175487465,
       "uniqueID": "id-15253",
       "ioValues": [
         {
@@ -192,8 +188,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.87890625,
-      "y": 0.7053571428571429,
+      "x": 0.6845238095238095,
+      "y": 0.17827298050139276,
       "uniqueID": "id-15260",
       "ioValues": [
         {
@@ -202,7 +198,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Speed",
@@ -214,8 +211,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "lamp-to-rpint",
-          "currentEquation": "lamp-to-rpint"
+          "ioValue": "Lamp Take Two 1",
+          "currentEquation": "Lamp Take Two 1"
         }
       ],
       "partName": "lamp-to-rpint",
@@ -580,8 +577,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.21484375,
-      "y": 0.2619047619047619,
+      "x": 0.2156084656084656,
+      "y": 0.2646239554317549,
       "uniqueID": "id-13113",
       "name": "Lamp One",
       "ioValues": [
@@ -6513,8 +6510,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.20247395833333331,
-      "y": 0.5952380952380952,
+      "x": 0.2195767195767196,
+      "y": 0.6601671309192201,
       "uniqueID": "id-13948",
       "name": "Lamp One",
       "ioValues": [
@@ -12444,6 +12441,37 @@
       },
       "unitsKey": "Inches",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8921957671957672,
+      "y": 0.796657381615599,
+      "uniqueID": "id-17008",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 2
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Lamp Take Two 2",
+          "currentEquation": "Lamp Take Two 2"
+        }
+      ],
+      "partName": "lamp-to-rpint",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -12474,6 +12502,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-15079",
+      "ap2ID": "id-15260"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-15146",
       "ap2ID": "id-15152"
     },
@@ -12490,7 +12523,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-15158",
-      "ap2ID": "id-15260"
+      "ap2ID": "id-17008"
     },
     {
       "ap2Name": "Shape 2",
@@ -12506,11 +12539,6 @@
       "ap2Name": "Shape",
       "ap1ID": "id-15175",
       "ap2ID": "id-15227"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-15253",
-      "ap2ID": "id-15158"
     },
     {
       "ap2Name": "geometry",
